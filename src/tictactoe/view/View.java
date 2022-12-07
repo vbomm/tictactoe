@@ -145,10 +145,10 @@ public class View {
      * Displays a message box with given texts.
      *
      * @param messageText the text of the message
-     * @param buttonText  the text of the button
+     * @param titleText  the text of the button
      */
-    public void displayMessage(String messageText, String buttonText) {
-        JOptionPane.showMessageDialog(null, messageText, buttonText, JOptionPane.PLAIN_MESSAGE);
+    public void displayMessage(String messageText, String titleText) {
+        JOptionPane.showMessageDialog(null, messageText, titleText, JOptionPane.PLAIN_MESSAGE);
     }
 
     /**
